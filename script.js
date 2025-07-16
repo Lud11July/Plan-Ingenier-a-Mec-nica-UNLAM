@@ -79,4 +79,11 @@ function actualizarDesbloqueo() {
 
 materias.forEach(crearMateria);
 actualizarDesbloqueo();
+  // Materias transversales
+  { codigo: "901", nombre: "Inglés Transversal I", correlativas: [] },
+  { codigo: "902", nombre: "Inglés Transversal II", correlativas: ["901"] },
+  { codigo: "903", nombre: "Inglés Transversal III", correlativas: ["902"] },
+  { codigo: "904", nombre: "Inglés Transversal IV", correlativas: ["903"] },
+  { codigo: "911", nombre: "Computación Transversal I", correlativas: [] },
+  { codigo: "912", nombre: "Computación Transversal II", correlativas: ["911"] },
 
