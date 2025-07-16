@@ -1,1 +1,56 @@
+body {
+  font-family: sans-serif;
+  background: #121212;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #00bcd4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.materia {
+  border: 2px solid #555;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #222;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.materia:hover {
+  border-color: #00bcd4;
+}
+
+.materia.aprobada {
+  background-color: #2e7d32;
+  border-color: #66bb6a;
+}
+
+.materia.bloqueada {
+  background-color: #555;
+  border-color: #999;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.codigo {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.nombre {
+  margin-top: 5px;
+  font-size: 1em;
+}
 
