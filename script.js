@@ -39,6 +39,13 @@ const materias = [
   { codigo: "3041", nombre: "Higiene y Seguridad en el Trabajo", correlativas: ["3025", "3039"] },
   { codigo: "3042", nombre: "Instalaciones Industriales", correlativas: ["3025", "3028"] },
   { codigo: "3043", nombre: "Legislación General", correlativas: ["1026"] },
+    // Materias transversales
+  { codigo: "901", nombre: "Inglés Transversal I", correlativas: [] },
+  { codigo: "902", nombre: "Inglés Transversal II", correlativas: ["901"] },
+  { codigo: "903", nombre: "Inglés Transversal III", correlativas: ["902"] },
+  { codigo: "904", nombre: "Inglés Transversal IV", correlativas: ["903"] },
+  { codigo: "911", nombre: "Computación Transversal I", correlativas: [] },
+  { codigo: "912", nombre: "Computación Transversal II", correlativas: ["911"] },
 ];
 
 const grid = document.querySelector(".grid");
@@ -79,11 +86,5 @@ function actualizarDesbloqueo() {
 
 materias.forEach(crearMateria);
 actualizarDesbloqueo();
-  // Materias transversales
-  { codigo: "901", nombre: "Inglés Transversal I", correlativas: [] },
-  { codigo: "902", nombre: "Inglés Transversal II", correlativas: ["901"] },
-  { codigo: "903", nombre: "Inglés Transversal III", correlativas: ["902"] },
-  { codigo: "904", nombre: "Inglés Transversal IV", correlativas: ["903"] },
-  { codigo: "911", nombre: "Computación Transversal I", correlativas: [] },
-  { codigo: "912", nombre: "Computación Transversal II", correlativas: ["911"] },
+ 
 
