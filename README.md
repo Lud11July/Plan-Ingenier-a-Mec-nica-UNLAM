@@ -1,1 +1,1 @@
-# Plan-Ingenier-a-Mec-nica-UNLAM
+# Plan-Ingenieria-Mecanica-UNLAM
